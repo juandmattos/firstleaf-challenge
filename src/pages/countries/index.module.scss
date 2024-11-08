@@ -1,0 +1,40 @@
+.country {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+
+  img {
+    width: 200px;
+    height: auto;
+  }
+
+  p {
+    font-size: 1.1em;
+    margin: 0.5em 0;
+  }
+}
+
+.countries {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin: 0.5em 0;
+  }
+
+  a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

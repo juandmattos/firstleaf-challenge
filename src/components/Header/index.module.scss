@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.logo {
+  width: 150px;
+}
+
+.container {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.countdownContainer {
+  @extend .container;
+  align-items: center;
+  gap: 1rem;
+}
+
+.checkoutBtn {
+  padding: 0.75rem 0.5rem;
+  color: white;
+  background-color: #ff4035;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #e63a0f;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 100px;
+  }
+}
